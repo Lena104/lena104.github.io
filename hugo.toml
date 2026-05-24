@@ -13,6 +13,16 @@ paginate = 10
 disableXML = true
 minifyOutput = true
 
+# HTML 태그(<strong> 등)를 그대로 통과 — 한국어 옆 **굵게** 깨짐 우회용
+[markup.goldmark.renderer]
+unsafe = true
+
+# CJK 줄바꿈 등 처리
+[markup.goldmark.extensions.cjk]
+enable = true
+escapedSpace = true
+eastAsianLineBreaks = true
+
 [params]
 env = "production"
 title = "AI 뉴스 다이제스트"
