@@ -1,4 +1,4 @@
-baseURL = "https://myoheey.github.io/"
+baseURL = "https://lena104.github.io/"
 languageCode = "ko-kr"
 defaultContentLanguage = "ko"
 title = "AI 뉴스 다이제스트"
@@ -28,7 +28,7 @@ env = "production"
 title = "AI 뉴스 다이제스트"
 description = "매일 아침, 국내외 AI 업계의 핵심 뉴스를 한국어로 정리합니다."
 keywords = ["AI", "인공지능", "뉴스", "트렌드", "테크"]
-author = "myoheey"
+author = "Lena104"
 DateFormat = "2006-01-02"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -54,7 +54,7 @@ Content = "매일 아침 국내외 AI 뉴스를 모아 한국어로 정리합니
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/myoheey"
+url = "https://github.com/Lena104"
 
 [[params.socialIcons]]
 name = "rss"
